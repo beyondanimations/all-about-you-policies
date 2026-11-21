@@ -12,7 +12,7 @@
 <header>
   <h1>Privacy Policy</h1>
   <p class="meta">All About You Astrology, by Beyond Animations<br>
-  Last updated: 13 November 2026</p>
+  Last updated: 21 November 2026</p>
 </header>
 
 <p class="lede">All About You Astrology does not collect your personal information.
@@ -45,13 +45,21 @@ other apps cannot read. None of it is transmitted anywhere by the app.</p>
   <li><strong>No servers.</strong> Every chart, score and reading is calculated on your
       phone. The developer never receives your birth data and has no way to see it.</li>
   <li><strong>No analytics or tracking.</strong> There is no usage tracking, no crash
-      reporting service, no advertising identifier and no third-party software
-      development kits of any kind in the app.</li>
+      reporting service and no advertising identifier in the app. The only outside code
+      it contains is the store's own purchase library on Android (Google Play Billing),
+      which hands purchases to the Play Store app. That library includes Google's usage
+      logging, which cannot send anything, because the app has no internet permission.</li>
   <li><strong>No advertising.</strong> The app shows no ads and sells no data. There is no
       data to sell.</li>
-  <li><strong>No internet permission.</strong> As of this version the app declares no
-      Android permissions at all, including internet access. It is technically unable to
-      send your information anywhere.</li>
+  <li><strong>Nothing to send it with.</strong> The app makes no network connections of
+      its own; purchases are handled by Google Play or the App Store. On Android the app
+      declares no internet permission, so it is technically unable to send your information
+      anywhere. The Android permissions it does declare let it show the daily notification,
+      keep it scheduled after the phone restarts, and pass a purchase to Google Play. On
+      iPhone the app contains no code that connects to a server. The only permissions it
+      asks for are notifications, if you turn on the daily reminder, and adding to your
+      photo library, if you save a picture to Photos. It asks for each one only at the
+      moment you use it.</li>
 </ul>
 
 <h2>3. The one way data can leave your device</h2>
@@ -72,10 +80,18 @@ Google's privacy policy rather than this one.</p>
 Backup</em>. Turning it off means your charts will not transfer automatically to a new
 phone, so you may wish to export them first — see below.</p>
 
+<h3>iCloud Backup, on iPhone</h3>
+
+<p>If iCloud Backup is switched on for your iPhone, iOS — not the app — includes the app's
+saved data, which includes the birth information you have entered, in your iPhone's backup
+in your own iCloud account. The developer cannot access it. It is governed by Apple's
+privacy policy rather than this one. You can turn it off under <em>Settings &rarr; your
+name &rarr; iCloud &rarr; iCloud Backup</em>.</p>
+
 <h3>Sharing and exporting, when you choose it</h3>
 
 <p>The app can create a picture of a reading, or a file containing your saved charts, and
-hand it to another app through Android's share sheet. This only ever happens when you tap
+hand it to another app through your phone's share sheet. This only ever happens when you tap
 share or export, and you choose which app receives it. Once it leaves the app, what
 happens to it is governed by the app you sent it to and by your own choices.</p>
 
@@ -83,7 +99,7 @@ happens to it is governed by the app you sent it to and by your own choices.</p>
 
 <p>If you turn on the daily notification, your score for the day is calculated on your
 phone and shown by your phone. Nothing is sent to a server, and no push messaging service
-is involved. You can turn notifications off inside the app, or in your Android settings,
+is involved. You can turn notifications off inside the app, or in your phone's settings,
 at any time.</p>
 
 <h2>5. Purchases and subscriptions</h2>
@@ -93,6 +109,11 @@ by Google Play. Google processes your payment and tells the app only whether the
 is active. The developer never receives or stores your card number, billing address or any
 other payment detail. Google's handling of that information is covered by Google's own
 privacy policy and the Google Play terms of service.</p>
+
+<p>On iPhone, the transaction is handled entirely by Apple through the App Store. Apple
+processes your payment and tells the app only whether the purchase is active. The developer
+never receives or stores your payment details. Apple's handling of that information is
+covered by Apple's own privacy policy.</p>
 
 <h2>6. Children</h2>
 
@@ -110,7 +131,8 @@ it:</p>
   <li><strong>To change it</strong> — edit the chart in the app.</li>
   <li><strong>To delete some of it</strong> — delete the chart in the app.</li>
   <li><strong>To delete all of it</strong> — uninstall the app, or clear its storage under
-      <em>Settings &rarr; Apps</em>. This permanently removes everything the app has saved.</li>
+      <em>Settings &rarr; Apps</em>. This permanently removes everything the app has saved.
+      On iPhone, delete the app; that permanently removes everything it has saved.</li>
   <li><strong>To take a copy with you</strong> — use the export option in the saved charts
       screen.</li>
 </ul>
@@ -123,7 +145,7 @@ Drive; you can remove that through your Google account settings.</p>
 
 <p>If the app ever changes in a way that affects this policy, this page will be updated and
 the date at the top will change. Material changes will also be noted in the app's release
-notes on Google Play.</p>
+notes on Google Play and the App Store.</p>
 
 <h2>9. Contact</h2>
 
@@ -136,7 +158,8 @@ notes on Google Play.</p>
 </nav>
 
 <footer>
-  <p>All About You Astrology is published by Beyond Animations.</p>
+  <p>All About You Astrology is published by Beyond Animations.<br>
+  On the App Store the iPhone version is listed under the developer's own name.</p>
 </footer>
 
 </main>
